@@ -27,4 +27,4 @@ Tuesday 13th of July 13:30.
 - [ ] Design a bug free site;
 
 
-! [ ] (https://media.giphy.com/media/tn78nqWtkPltu/giphy.gif)
+![](https://media.giphy.com/media/tn78nqWtkPltu/giphy.gif)
