@@ -6,29 +6,105 @@
     margin: 0;
 }
 html {
-    font-size: 62.5%; /* 10px */
+    font-size: 62.5%; /* 1rem = 10px */
 }
 body {
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
 }
-/* Main and header part front page */
 a {
-    display: grid;
     text-decoration-line: none;
-    color: black;
+    color: white;
 }
+a:hover {
+    text-shadow: grey;
+    font-size: larger;
+    transition: 0.8s;
+}
+i:hover {
+    transform: scale(1.3);
+    transition: 0.6s;
+}
+.burger:hover{
+    transform: scale(1.2);
+    transition: 0.6s;
+}
+
+/* Main and header part */
 main {
-    display: grid;
-    text-align: center;
     background-image: url("./Images/banner-img.jpg");
     height: 65rem;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 25rem;
+    margin-top: 4.1rem;
+}
+.navbar {
+    display: flex;
+    margin-right: 20rem;
+}
+.navlist {
+    display: flex;
+    align-items: center;
+}
+.navlink  {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-right: 6rem;
+    color: white;
+}
+.navitem {
+    margin-top: 4rem;
+}
+.fab {
+    font-size: 3rem;
+    padding-right: 3rem;
+    opacity: 50%;
+    color: rgb(214, 214, 214);
+}
+.burger {
+    width: 5rem;
+    height: 5rem;
+    color: white;
+    padding-left: 5rem;
+}
+.dot {
+    display: inline;
+    color: yellow;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    height: 57.5rem;
+}
+h1 {
+    font-size: 5.2rem;
+}
+.subtitle {
+    display: flex;
+    padding-top: 2rem;
+    font-weight: 530;
+    opacity: 75%;
+}
+.active a:link {
+    color: rgb(43, 43, 43);
+    opacity: 50%;
 }
 /* Content images 12x in a grid careful the size is calculated pixel perfect */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 45.36rem);
-    grid-template-rows: repeat(3, 37.1rem);
+    grid-template-columns: repeat(auto-fill, 45.36rem);
+    grid-template-rows: repeat(auto-fill, 37.1rem);
     justify-content: center;
     grid-gap: 3rem;
     margin-top: 12rem;
@@ -39,12 +115,7 @@ main {
 }
 /* Let's go on the footer */
 footer {
-    grid-area: footer;
-    display: grid;
-    justify-items: center;
-    grid-template-rows: repeat(3,1fr);
-    grid-template-columns: repeat(1,1fr);
-    text-align: center;
+    display: flex;
     background-color: #000000;
     color: white;
     margin-top: 5rem;
