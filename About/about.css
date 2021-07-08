@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding:0px;
+} /* Enlever les bordures blanches à gauche et à droite du footer */
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    border: none;
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 125px;
+    /* height: 450px; */
+}
+
+
+/* BULLETED LIST */
+#footerul{
+    border: none; 
+    margin: auto;
+    display: flex;
+    width: 500px;
+    padding: 66px;
+    text-decoration: none;
+}
+
+.footerli{
+    border: none;
+    list-style-type: none;
+    margin: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ICONS SOCIAL NETWORKS */
+.fab{
+    background-color: #2C2C2C;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left : 25 px;
+    margin-right: 25px; /* Pour que ça reste centré */
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+#privacypolicy{
+    color: #909090;
+    border: none;
+    padding-top: 100px;
+}  
+
+
+/* BACK TO THE TOP OF THE PAGE */
+.square{
+    background-color: #8121E0;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    float: right;
+}
+
+.fas{
+    margin-top: 20px;
+}
