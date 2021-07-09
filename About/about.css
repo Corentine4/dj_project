@@ -3,7 +3,182 @@ body{
     padding:0px;
 } /* Enlever les bordures blanches à gauche et à droite du footer */
 
+h2{
+    font-size: 28px;
+    letter-spacing: 1.25px;
+}
 
+h3{
+    letter-spacing: 1.25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FIRST BLOCK : INFORMATIONS */
+
+#firstblock{
+    border: red solid 5px;
+    display: flex;
+    line-height: 1.75;
+}
+
+#firstblock_leftpart{
+    border: salmon solid 3px;
+    margin: auto;
+    width: 615px;
+}
+
+
+#firstblock_rightpart{
+    border: saddlebrown solid 3px;
+    margin: auto;
+}
+
+hr{
+    width: 50%;
+}   
+
+
+#morbi_tristique{
+    font-size: 18px;
+ }
+
+
+#signature{
+   float: right;
+}
+
+#getintouch{
+    background-color: #8121E0;
+    padding: 15px;
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECOND BLOCK : DISCOVER */
+
+#Discover_title{
+    padding-bottom: 25px;
+}
+
+#secondblock{
+    border: none;
+    background-color: #F5F5F5;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    line-height: 1.75;
+}    
+    
+#secondblock_article01{
+    border: none;
+    display: flex;
+    width: 1355px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#secondblock_article02{
+    border: none;
+    display: flex;
+    width: 1355px;
+    margin: auto;
+}
+
+.secondblock_section{
+    border: none;
+    margin: auto;
+    width: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.square01{
+    width: 30px;
+    height: 40px;
+    border: #8121E0 solid 1px;
+    border-radius: 1px;
+    float: left;
+    margin-top: 45px;
+}
+
+.secondblock_section_text{
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+
+
+
+/* THIRD BLOCK */
+
+#thirdblock{
+    border: none;
+    height: 900px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.thirdblock_article{
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.thirdblock_sections{
+    border: none;
+    width: 372px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#thirdblock_intro{
+    line-height: 1.5;
+    color: #919191
+}
+
+.dates{
+    color: #919191
+}
 
 
 
@@ -12,14 +187,13 @@ body{
 footer{
     border: none;
     background-color: #212121;
+    height: 400px;
     color: white;
     text-align: center;
     padding: 125px;
-    /* height: 450px; */
 }
 
-
-/* BULLETED LIST */
+/* Bulleted list */
 #footerul{
     border: none; 
     margin: auto;
@@ -40,8 +214,7 @@ a{
     text-decoration: none;
 }
 
-
-/* ICONS SOCIAL NETWORKS */
+/* Icons social networks */
 .fab{
     background-color: #2C2C2C;
     width: 30px;
@@ -55,19 +228,17 @@ a{
     text-align: center;
 }
 
-
 #privacypolicy{
     color: #909090;
     border: none;
     padding-top: 100px;
 }  
 
-
-/* BACK TO THE TOP OF THE PAGE */
+/* Back to the top of the page */
 .square{
     background-color: #8121E0;
-    width: 60px;
-    height: 60px;
+    width: 58px;
+    height: 58px;
     border-radius: 5px;
     float: right;
 }
