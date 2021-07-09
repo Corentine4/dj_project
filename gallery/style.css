@@ -24,10 +24,7 @@ a:hover {
 i:hover {
     transform: scale(1.3);
     transition: 0.6s;
-}
-.burger:hover{
-    transform: scale(1.2);
-    transition: 0.6s;
+    transform-origin: left;
 }
 
 /* Main and header part */
@@ -67,12 +64,6 @@ header {
     opacity: 50%;
     color: rgb(214, 214, 214);
 }
-.burger {
-    width: 5rem;
-    height: 5rem;
-    color: white;
-    padding-left: 5rem;
-}
 .dot {
     display: inline;
     color: yellow;
@@ -100,6 +91,7 @@ h1 {
     color: rgb(43, 43, 43);
     opacity: 50%;
 }
+
 /* Content images 12x in a grid careful the size is calculated pixel perfect */
 .gallery {
     display: grid;
@@ -112,6 +104,18 @@ h1 {
 .gallery img {
     width: 45.36rem;
     height: 37.42rem;
+}
+.gallery img {
+    transition: 0.8s ease;
+    cursor: zoom-in;
+}
+.gallery img:active {
+    transform: scale(1.6) translate(-50%, -50%);
+    cursor: none;
+    top: 60%;
+    left: 55%;
+    position: fixed;
+    z-index: 999;
 }
 /* Let's go on the footer */
 footer {
