@@ -138,6 +138,56 @@ audio {
     height: 5rem;
     z-index: 1;
 }
+/* Recent News */
+.rtnews {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+.container {
+    max-width: 150rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -5rem;
+    height: 60rem;
+}
+.newsitems {
+    height: 35rem;
+    max-width: 40rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.newsitems h4 {
+    background-color: #8121E0;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.2rem;
+    margin-bottom: 5rem;
+    border-radius: 3px;
+    color: white;
+}
+.readmore {
+    position:relative;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.readmore:hover {
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+}
+.newsitems:hover {
+    background-image: url(./Images/gallery-5.jpg);
+    color: white;
+}
 /* Newsletter input box */
 .emailinput {
     background-image: url(./Images/homepage-footer-background.jpg);
@@ -150,7 +200,6 @@ audio {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: #8121E0;
     border-radius: 5px;    
     margin-left: 3rem;
@@ -164,6 +213,11 @@ audio {
     height: 5rem;
     width: 20%;
     border-radius: 5px;
+}
+.emailinput > h2 {
+    padding-bottom: 20rem;
+    color: white;
+    position: absolute;
 }
 /* Let's go on the footer */
 .footer{
