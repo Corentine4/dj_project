@@ -6,20 +6,100 @@
         <meta charset="utf-8">
         <meta name="description" content="About page">
         <title>About</title>
+        <!-- Link to style sheet-->
         <link rel="stylesheet" href="about.css">
+        <!-- Link to burger menu-->
+        <link rel="stylesheet" href="burgermenu.css">
         <!-- Poppins Regular 400 -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <!-- Poppins Regular Bold 500 -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+        <!-- Poppins Regular Bold 600 -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
         <!-- Lien vers FontAwesome -->
         <script src="https://kit.fontawesome.com/953d8595bf.js" crossorigin="anonymous"></script>
     </head>
 
+
     <body>
 
+        <main>
 
+            <header>
+                <img class="logo" src="Images/logo.png" alt="DJ Angerone">
 
+                    <nav class="navbar">
+                        <ul class="navlist">
+                            <li class="navitem navlink">
+                                <a href="needlink">ABOUT</a>
+                            </li>
+                            <li class="navitem navlink">
+                                <a href="needlink">DISCOGRAPHY</a>
+                                </li>
+                            <li class="navitem navlink">
+                                <a href="needlink">TOURS</a>
+                            </li>
+                            <li class="navitem navlink">
+                                <a href="needlink">PHOTOS</a>
+                            </li>
+                            </ul>
+                        <ul class="navlist">
+                            <li class="navitem">
+                                <a href="https://www.facebook.com/rehabmusic" target="_blank"><i class="icons fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://www.instagram.com/deejay_snack/" target="_blank"><i class="icons fab fa-instagram"></i></a>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://twitter.com/R3HAB" target="_blank"><i class="icons fab fa-twitter"></i></a>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://www.youtube.com/watch?v=8ybW48rKBME" target="_blank"><i class="icons fab fa-youtube"></i></a>
+                            </li>
+                            
+                            <!--Burger menu-->      
+                            <li class="navitem">
+                                <div class="menu-wrap">
+                                    <input type="checkbox" class="toggler">
+                                        <div class="hamburger"><div>
+                                        </div></div>
+                                    <div class="menu">
+                                        <div>
+                                            <div>
+                                            <ul>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Discography</a></li>
+                                                <li><a href="#">Tours</a></li>
+                                                <li><a href="#">Photos</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
 
+             </header>
 
+             <section class="title">
+                <h1 class="headtitle">
+                    ABOUT US
+                </h1>
+                    <ul class="subtitle">
+                        <li><a href="">HOME</a></li>
+                        <li>
+                            <a href="">
+                                <div class="dot">•</div>
+                            </a>
+                        </li>
+                        <li class="active"><a href="index.html">ABOUT US</a></li>
+                    </ul>
+            </section>
 
+        </main>
 
 
 
@@ -31,26 +111,43 @@
             <article id="firstblock_leftpart">
                 <h2 id="titledifferent">DJ Angerone</h2>
                 <hr/>
+                <!-- Block 1-->
                 <section id="first_block_leftpart_01">
-                    <i class="fas fa-phone-alt"></i>
-                    <p>1-800-123-1234</p>
-                    <i class="fal fa-envelope"></i>
-                    <p>info@demolink.org</p>
-                </section>
-
+                    <!-- Block A -->
+                    <div id="first_block_leftpart_01_A">
+                        <i class="phone fas fa-phone-alt"></i>
+                        <p>1-800-123-1234</p>
+                    </div>
+                    <!-- Block A/2 -->
+                    <div id="first_block_leftpart_01_A">
+                        <i class="mail far fa-envelope"></i>
+                        <p>Info@demolink.org</p>
+                    </div>
+                </section>    
+                <!-- Block 2-->
                 <section class="first_block_leftpart_02">
-                    <i class="fab fa-facebook-f">https://www.facebook.com</i>
-                <i class="fab fa-instagram">https://www.instagram.com</i>
-                <i class="fab fa-twitter">https://twitter.com</i>
-                <i class="fab fa-youtube">https://www.youtube.com</i>
-                
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantitum, totam rem aperiam, eaque ipsa quae ab illo</p>
-                
-                <p id="morbi_tristique">Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, tristique senectus et netus et malesuada fames</p>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="iconsinformations fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="iconsinformations fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="iconsinformations fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=oavMtUWDBTM" target="_blank">
+                        <i class="iconsinformations fab fa-youtube"></i>
+                    </a>   
+
+                <p id="sed_ut">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br>
+                    doloremque laudantitum, totam rem aperiam, eaque ipsa quae ab illo</p>
+                <p id="morbi_tristique">Morbi tristique senectus et netus et malesuada fames <br>
+                    ac turpis egestas. Vestibulum tortor quam, feugiat <br>
+                    vitae, tristique senectus et netus et malesuada fames</p>
                 
                 <img src="Images/about-us-signature.png" alt="Signature" id="signature">
                 
-                <p id="getintouch">GET IN TOUCH</p>
+                <p id="getintouch"><a href="mailto:DJ.Angerone@gmail.com">GET IN TOUCH</a></p>
                 </section>
 
             </article>
@@ -61,16 +158,6 @@
             </article>
 
         </section>
-
-
-
-
-
-
-
-
-
-
 
 
         <!-- SECOND BLOCK : Discover -->
@@ -149,19 +236,19 @@
             <article class="thirdblock_article">
 
                 <section class="thirdblock_sections">
-                    <img src="Images/dicography-album-cover-1.jpg" alt="Album Intense">
+                    <img src="Images/dicography-album-cover-1.jpg" alt="Album Intense" class="albums">
                     <h3>Intense</h3>
                     <p class="dates">2019</p>
                 </section>
 
                 <section class="thirdblock_sections">
-                    <img src="Images/dicography-album-cover-2.jpg" alt="Album My space">
+                    <img src="Images/dicography-album-cover-2.jpg" alt="Album My space" class="albums">
                     <h3>My Space</h3>
                     <p class="dates">2019</p>
                 </section>
             
                 <section class="thirdblock_sections">
-                    <img src="Images/dicography-album-cover-3.jpg" alt="Album Trance Year Mix">
+                    <img src="Images/dicography-album-cover-3.jpg" alt="Album Trance Year Mix" class="albums">
                     <h3>Trance Year Mix</h3>
                     <p class="dates">2018</p>
                 </section>
@@ -194,19 +281,19 @@
 
             <!-- ICONS SOCIAL NETWORKS -->
             <a href="http://www.facebook.com/rehabmusic" target="_blank">
-                <i class="fab fa-facebook-f"></i>
+                <i class="footericons fab fa-facebook-f"></i>
             </a>
             <a href="http://www.instagram.com/deejay_snack/" target="_blank">
-                <i class="fab fa-instagram"></i>
+                <i class="footericons fab fa-instagram"></i>
             </a>
             <a href="http://twitter.com/R3HAB" target="_blank">
-                <i class="fab fa-twitter"></i>
+                <i class="footericons fab fa-twitter"></i>
             </a>
             <a href="http://www.youtube.com/watch?v=8ybW48rKBME" target="_blank">
-                <i class="fab fa-youtube"></i>
+                <i class="footericons fab fa-youtube"></i>
             </a>
             <a href="http://www.pinterest.fr/pin/607423068495751776/" target="_blank">
-                <i class="fab fa-pinterest-p"></i>
+                <i class="footericons fab fa-pinterest-p"></i>
             </a>
 
             <p id="privacypolicy">© 2021 DJ Angerone. Privacy Policy</p>
@@ -214,7 +301,7 @@
             <!-- BACK TO THE TOP OF THE PAGE -->
             <div class="square">
                 <a href="#">
-                    <i class="fas fa-chevron-up"></i>
+                    <i class="chevron fas fa-chevron-up"></i>
                 </a>
             </div>
 
