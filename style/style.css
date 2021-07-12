@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+            /* Navbar style */
+.month-navbar{
+    margin: 10%;
+    margin-bottom: 0;
+    padding:0;
+    background: #282828;
+    border-radius: 5px 5px 0px 0px;    
+}
+
+.month-navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.month-navbar li{
+    display: inline-block;
+}
+
+.month-navbar a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+}
+            /* Navbar hover */
+
+.month-navbar a:hover{
+    border-bottom: 3px solid #8121e0;
+}
+
+.month-navbar a.active{
+    border-bottom: 3px solid #8121e0;
+}
+
+
+
+section {
+    margin: 10%;
+    margin-top: 0;
+    padding: 0%;
+    box-shadow: 0 0 2px #282828;
+    top: 0;
+    
+}
+
+
+
+
+
+.bullet-point-event {
+list-style-type: circle;
+
+}
+
+.date-event {
+    font-size: small;
+    color: #282828;
+    padding-left: 15%;
+    
+}
+
+.name-event{
+    font-size: 18px;
+    padding-left: 15%;
+}
+
+.buy-tickets-box {
+    margin-left: 90%;
+    padding-top: 10%;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.event-description {
+    font-size: smaller;
+    color: #282828;
+    padding-left: 15%;
+}
