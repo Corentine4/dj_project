@@ -1,0 +1,61 @@
+        /* About DJ Angerone*/
+.about-dj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: auto;
+    width: 100%;
+    padding: 250px 0 150px 0;
+}
+
+.text-about-dj{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: #282828;
+    width: 570px;
+    word-spacing: 0.25rem;
+}
+
+.title-about-dj{
+    color:#282828;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p.quote-dj-angerone{
+    font-size: 29px;
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    width: auto;
+}
+
+.picture-dj{
+    height: 324px;
+    width: 484px;
+    margin-right: 150px;
+}
+
+.picture-dj-angerone{
+    border-radius: 10px;
+    grid-column: 1;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.about-dj .quote-dj-angerone > div {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-dj-angerone > div > div {
+    height: 5px;
+    width: 5px;
+    background-color: violet;
+}
