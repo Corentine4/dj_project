@@ -63,7 +63,7 @@ header {
 .navitem {
     margin-top: 4rem;
 }
-.fab {
+.hdicon {
     font-size: 3rem;
     padding-right: 3rem;
     opacity: 50%;
@@ -76,7 +76,8 @@ header {
     color: white;
     flex-direction: column;
     height: 160rem;
-    margin-left: 35rem;
+    max-width: 105rem;
+    margin: auto;
 }
 .title > p {
     font-size: 4rem;   
@@ -94,7 +95,7 @@ audio {
     background-color: rgb(54, 54, 54);
     display: grid;
     height: 25rem;
-    width: 80%;
+    max-width: 105rem;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr;
     color: white;
@@ -121,10 +122,11 @@ audio {
     align-items: center;
     transform: scale(2.5);
     grid-area: counter;
+    width: 100%;
 }
 .btnbuy {
     background-color: #8121E0;
-    display: grid;
+    display: flex;
     grid-area: button;
     border-radius: 5px;
     padding: 2rem;
@@ -133,8 +135,95 @@ audio {
     align-items: center;
     text-align: center;
     width: fit-content;
-    height: fit-content;
+    height: 5rem;
+    z-index: 1;
 }
+/* Newsletter input box */
+.emailinput {
+    background-image: url(./Images/homepage-footer-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+}
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #8121E0;
+    border-radius: 5px;    
+    margin-left: 3rem;
+    height: 5rem;
+    width: fit-content;
+    padding: 2rem;
+    z-index: 1;
+}
+.emailinput > input {
+    padding: 1rem;
+    height: 5rem;
+    width: 20%;
+    border-radius: 5px;
+}
+/* Let's go on the footer */
+.footer{
+    border: none;
+    background-color: #212121;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: 125px;
+}
+
+/* BULLETED LIST */
+.footerul{
+    border: none; 
+    margin: auto;
+    display: flex;
+    width: 500px;
+    padding: 66px;
+    text-decoration: none;
+}
+
+.footerli{
+    border: none;
+    margin: auto;
+}
+/* ICONS SOCIAL NETWORKS */
+
+.fticon{
+    background-color: #2C2C2C;
+    background-position: top;
+    padding-top: 2.8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.privacypolicy{
+    color: #909090;
+    border: none;
+    padding-top: 100px;
+}  
+
+/* BACK TO THE TOP OF THE PAGE */
+.square{
+    background-color: #8121E0;
+    width: 58px;
+    height: 58px;
+    border-radius: 5px;
+    float: right;
+}
+.fa-chevron-up{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
 
 
 
