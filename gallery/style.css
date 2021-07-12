@@ -16,6 +16,9 @@ a {
     text-decoration-line: none;
     color: white;
 }
+ul, li {
+    list-style: none;
+}
 a:hover {
     text-shadow: grey;
     font-size: larger;
@@ -28,11 +31,11 @@ i:hover {
 }
 
 /* Main and header part */
-main {
+.main {
     background-image: url("./Images/banner-img.jpg");
     height: 65rem;
 }
-header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,7 +61,7 @@ header {
 .navitem {
     margin-top: 4rem;
 }
-.fab {
+.hdicon {
     font-size: 3rem;
     padding-right: 3rem;
     opacity: 50%;
@@ -78,7 +81,7 @@ header {
     flex-direction: column;
     height: 57.5rem;
 }
-h1 {
+.headtitle {
     font-size: 5.2rem;
 }
 .subtitle {
@@ -118,15 +121,60 @@ h1 {
     z-index: 999;
 }
 /* Let's go on the footer */
-footer {
-    display: flex;
-    background-color: #000000;
+.footer{
+    border: none;
+    background-color: #212121;
+    height: 100%;
     color: white;
-    margin-top: 5rem;
+    text-align: center;
+    padding: 125px;
 }
-footer img {
-    margin-top: 5rem;
+
+/* BULLETED LIST */
+.footerul{
+    border: none; 
+    margin: auto;
+    display: flex;
+    width: 500px;
+    padding: 66px;
+    text-decoration: none;
 }
-ul {
-    list-style-type: none;
+
+.footerli{
+    border: none;
+    margin: auto;
+}
+/* ICONS SOCIAL NETWORKS */
+
+.fticon{
+    background-color: #2C2C2C;
+    background-position: top;
+    padding-top: 2.8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 25px; /* Pour que ça reste centré */
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.privacypolicy{
+    color: #909090;
+    border: none;
+    padding-top: 100px;
+}  
+
+/* BACK TO THE TOP OF THE PAGE */
+.square{
+    background-color: #8121E0;
+    width: 58px;
+    height: 58px;
+    border-radius: 5px;
+    float: right;
+}
+.fa-chevron-up{
+    margin-top: 20px;
+    cursor: pointer;
 }
