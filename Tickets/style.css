@@ -1,0 +1,87 @@
+        /* Tickets */
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.tickets {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tickets h2{
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.price-tickets{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.price-package {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 365px;
+    height: 375px;
+}
+
+.price-tickets h4{
+    font-weight: normal;
+    font-size: 20px;
+    color: #282828;
+}
+
+.price-tickets p{
+    font-weight: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: #282828;
+}
+
+.info-price-tickets{
+    list-style-type: none;
+    font-size: 14px;
+    color: #282828;
+    justify-content: center;
+}
+
+.price-tickets button{
+    width: 200px;
+    height: 150px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.price-tickets button:hover{
+    height: 100px;
+    width: 150px;
+    margin-top: 50px;
+    background-color: #8121e0;
+    color: #ffffff;
+    border-radius: 5px;
+    border:none;
+    font-weight: bold;
+    transition: 0.65s;
+}
+
+.dollar-sign {
+    font-size: 15px;
+    }
