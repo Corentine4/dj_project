@@ -34,6 +34,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 365px;
     height: 375px;
 }
@@ -55,21 +56,23 @@
     list-style-type: none;
     font-size: 14px;
     color: #282828;
-    
+    justify-content: center;
 }
 
 .price-tickets button{
-    width: 100px;
+    width: 200px;
+    height: 150px;
     margin-top: 50px;
     background-color: #ffffff;
     border: 1px solid #000000;
     border-radius: 5px;
     font-weight: bold;
+    justify-content: center;
 }
 
 .price-tickets button:hover{
-    height: 45px;
-    width: 100px;
+    height: 100px;
+    width: 150px;
     margin-top: 50px;
     background-color: #8121e0;
     color: #ffffff;
@@ -78,3 +81,7 @@
     font-weight: bold;
     transition: 0.65s;
 }
+
+.dollar-sign {
+    font-size: 15px;
+    }
