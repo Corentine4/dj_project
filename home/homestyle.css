@@ -33,27 +33,34 @@ i:hover {
 
 
 /* Main and header part */
-main {
+.main {
     background-image: url("./Images/homapage-banner-img.jpg");
     width: auto;
     height: 105rem;
 }
-header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo {
-    margin-left: 25rem;
-    margin-top: 4.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4rem;
 }
 .navbar {
     display: flex;
-    margin-right: 20rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .navlist {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 .navlink  {
     font-size: 1.8rem;
@@ -73,7 +80,7 @@ header {
 .title {
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     color: white;
     flex-direction: column;
     height: 160rem;
@@ -203,6 +210,50 @@ p.quote-dj-angerone{
     background-color: violet;
 } */
 
+/* Latest Release */
+
+.latest-release-discography{
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    background-position: center;
+    background-image: url(..///General2/Images/homepage-latest-releases-background.jpg);
+    background-size: cover;
+}
+
+.latest-release-discography h2{
+    font-size: 34px;
+    font-weight: 450;
+    text-align: center;
+    z-index: 1;
+}
+
+.latest-release-discography a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8121e0;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 45px;
+    z-index: 1;
+}
+
+.latest-release-discography a:hover{
+    text-shadow: grey;
+    font-size: larger;
+    transition: 0.8s;
+}
+
 /* Navbar style */
 
 .month-navbar{
@@ -309,6 +360,143 @@ list-style-type: circle;
     font-size: 14px;
     color: #282828;
 }
+ /* SPONSORS */
+
+ .sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 470px;
+    width: 100%;
+    background-image: url(../General2/Images/homepage-sponsors-background.jpg);
+    background-size: cover;
+    background-position: center -100px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.sponsors h2{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.sponsors-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.sponsors-list li{
+    list-style: none;
+    height: 100px;
+    width: auto;
+    margin-left: 5rem;
+}
+
+.sponsors-list li a{
+    width: auto;
+    text-decoration: none;
+}
+
+    
+.sponsors-list li a img{
+    height: 69%;
+    width: auto;
+    filter: grayscale(100%);
+}
+
+.sponsors-list li a img:hover{
+    height: 110%;
+    width: auto;
+    filter: grayscale(0%);
+
+}
+/* Tickets */
+.tickets {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tickets h2{
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.price-tickets{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.price-package {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 365px;
+    height: 375px;
+}
+
+.price-tickets h4{
+    font-weight: normal;
+    font-size: 20px;
+    color: #282828;
+}
+
+.price-tickets p{
+    font-weight: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: #282828;
+}
+
+.info-price-tickets{
+    list-style-type: none;
+    font-size: 14px;
+    color: #282828;
+    justify-content: center;
+}
+
+.price-tickets button{
+    width: 200px;
+    height: 150px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.price-tickets button:hover{
+    height: 100px;
+    width: 150px;
+    margin-top: 50px;
+    background-color: #8121e0;
+    color: #ffffff;
+    border-radius: 5px;
+    border:none;
+    font-weight: bold;
+    transition: 0.65s;
+}
+
+.dollar-sign {
+    font-size: 15px;
+    }
 /* Mini-Gallery */
 .minigal {
     display: grid;

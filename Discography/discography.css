@@ -25,84 +25,78 @@ p{
 
 /* HEADER */
 
-main {
+.main {
     background-image: url("./Images/banner-img.jpg");
-    height: 65rem;
+    max-height: 65rem;
 }
-
-header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: auto;
 }
-
 .logo {
-    margin-left: 25rem;
-    margin-top: 4.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4rem;
 }
-
 .navbar {
     display: flex;
-    margin-right: 20rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
-
 .navlist {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: auto;
 }
-
 .navlink  {
     font-size: 1.8rem;
     font-weight: 600;
-    padding-right: 6rem;
+    padding-right: 5rem;
     color: white;
 }
-
 .navitem {
     margin-top: 4rem;
 }
-
-.icons {
+.hdicon {
     font-size: 3rem;
     padding-right: 3rem;
     opacity: 50%;
     color: rgb(214, 214, 214);
 }
-
 .dot {
     display: inline;
     color: yellow;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     color: white;
     flex-direction: column;
     height: 57.5rem;
 }
-
-h1 {
+.headtitle {
     font-size: 5.2rem;
 }
-
 .subtitle {
     display: flex;
     padding-top: 2rem;
     font-weight: 530;
     opacity: 75%;
-    font-size: 1.5rem;
 }
-
 .active a:link {
-    color: white;
+    color: rgb(43, 43, 43);
     opacity: 50%;
-    font-weight: 500;
 }
-
 .headtitle{
     text-shadow: 0.1em 0.1em 0.5em black
 }

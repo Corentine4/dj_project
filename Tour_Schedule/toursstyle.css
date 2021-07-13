@@ -41,37 +41,45 @@ i:hover {
 
 /* Main and header part */
 
-main {
-    background-image: url(/ressources/banner-img.jpg);
-    height: 65rem;
+.main {
+    background-image: url("/General2/Images/banner-img.jpg");
+    max-height: 65rem;
 }
-header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: auto;
 }
 .logo {
-    margin-left: 25rem;
-    margin-top: 4.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4rem;
 }
 .navbar {
     display: flex;
-    margin-right: 20rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .navlist {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 .navlink  {
     font-size: 1.8rem;
     font-weight: 600;
-    padding-right: 6rem;
+    padding-right: 5rem;
     color: white;
 }
 .navitem {
     margin-top: 4rem;
 }
-.fab {
+.hdicon {
     font-size: 3rem;
     padding-right: 3rem;
     opacity: 50%;
@@ -87,14 +95,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     color: white;
     flex-direction: column;
     height: 57.5rem;
 }
-h1 {
+.headtitle {
     font-size: 5.2rem;
 }
-
 .subtitle {
     display: flex;
     padding-top: 2rem;
