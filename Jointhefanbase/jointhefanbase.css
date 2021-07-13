@@ -27,7 +27,7 @@ p{
 
 /* SECTION */
 #thirdblock{
-    border: orangered solid 3px;
+    border: none;
     height: 954px;
     text-align: center;
     padding-top: 175px;
@@ -36,26 +36,86 @@ p{
 /* ARTICLE */
 .thirdblock_article{
     display: flex;
-    border: palegreen solid 3px;
+    border: none;
     align-items: center;
     justify-content: center;
 }
 
 /* ARTICLE SECTIONS */
 .thirdblock_sections{
-    border: orchid solid 3px;
+    border: none;
     width: 372px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 
-
-
 /* FOUR BLOCK : Join the Fanbase */
+
+.white{
+    color: white;
+}
 
 /* Left part */
 
+#image1{
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    margin-right: 0px;
+    margin-top: 75px;
+}
+
+#image2{
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-right: 20px;
+}
+
+#image3{
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+
+#image4{
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#image6{
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+#four_block_join_the_fanbase{
+    background-color: #282828 ;
+    border:none;
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+#fourblock_leftpart{
+    display: flex;
+    border: none;
+    width: 620px;
+    margin: auto;
+}
+
+.fourblock_leftpart_columns{
+    margin: auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Right part */
 
@@ -65,4 +125,31 @@ p{
     border: #8121E0 solid 1px;
     border-radius: 1px;
     float: left;
+    margin-top: 35px;
+    margin-right: 20px;
   }
+
+#fourblock_rightpart{
+    border: none;
+    width: 550px;
+}
+
+#fourblock_jointhefanbase{
+    border: none;
+    font-size: 2rem;
+    margin: auto;
+    width: 440px;
+}
+
+#fourtblock_3sections{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    margin: auto;
+}
+
+.three_sections{
+    border: none;
+    margin-left: 50px;
+}
