@@ -46,3 +46,10 @@
     width: auto;
     filter: grayscale(100%);
 }
+
+.sponsors-list li a img:hover{
+    height: 110%;
+    width: auto;
+    filter: grayscale(0%);
+
+}
