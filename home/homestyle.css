@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 /* General css */
 *{
     padding: 0;
@@ -80,7 +79,7 @@ i:hover {
 .title {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     color: white;
     flex-direction: column;
     height: 160rem;
@@ -213,7 +212,7 @@ p.quote-dj-angerone{
 /* Latest Release */
 
 .latest-release-discography{
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -224,7 +223,7 @@ p.quote-dj-angerone{
     background-color: #000000;
     position: relative;
     background-position: center;
-    background-image: url(..///General2/Images/homepage-latest-releases-background.jpg);
+    background-image: url(../General2/Images/homepage-latest-releases-background.jpg);
     background-size: cover;
 }
 
@@ -252,6 +251,136 @@ p.quote-dj-angerone{
     text-shadow: grey;
     font-size: larger;
     transition: 0.8s;
+}
+/* THIRD BLOCK */
+
+/* SECTION */
+#thirdblock{
+    border: none;
+    height: 954px;
+    text-align: center;
+    padding-top: 175px;
+}
+
+/* ARTICLE */
+.thirdblock_article{
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ARTICLE SECTIONS */
+.thirdblock_sections{
+    border: none;
+    width: 372px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* FOUR BLOCK : Join the Fanbase */
+
+.white{
+    color: white;
+}
+
+/* Left part */
+
+#image1{
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    margin-right: 0px;
+    margin-top: 75px;
+}
+
+#image2{
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-right: 20px;
+}
+
+#image3{
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+
+#image4{
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#image6{
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+#four_block_join_the_fanbase{
+    background-color: #282828 ;
+    border:none;
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+#fourblock_leftpart{
+    display: flex;
+    border: none;
+    width: 620px;
+    margin: auto;
+}
+
+.fourblock_leftpart_columns{
+    margin: auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Right part */
+
+.square01{
+    width: 40px;
+    height: 50px;
+    border: #8121E0 solid 1px;
+    border-radius: 1px;
+    float: left;
+    margin-top: 35px;
+    margin-right: 20px;
+  }
+
+#fourblock_rightpart{
+    border: none;
+    width: 550px;
+}
+
+#fourblock_jointhefanbase{
+    border: none;
+    font-size: 2rem;
+    margin: auto;
+    width: 440px;
+}
+
+#fourtblock_3sections{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    margin: auto;
+}
+
+.three_sections{
+    border: none;
+    margin-left: 50px;
 }
 
 /* Navbar style */
@@ -369,9 +498,8 @@ list-style-type: circle;
     flex-direction: column;
     height: 470px;
     width: 100%;
-    background-image: url(../General2/Images/homepage-sponsors-background.jpg);
-    background-size: cover;
-    background-position: center -100px;
+    background-image: url(/General2/Images/homepage-sponsors-background.jpg);
+    background-position: center;
     position: relative;
     z-index: 1;
     text-align: center;
@@ -584,14 +712,14 @@ list-style-type: circle;
     background-color: #8121E0;
     border-radius: 5px;    
     margin-left: 3rem;
-    height: 5rem;
+    height: 3rem;
     width: fit-content;
     padding: 2rem;
     z-index: 1;
 }
 .emailinput > input {
     padding: 1rem;
-    height: 5rem;
+    height: 4rem;
     width: 20%;
     border-radius: 5px;
 }
