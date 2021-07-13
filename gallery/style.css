@@ -7,6 +7,7 @@
 }
 html {
     font-size: 62.5%; /* 1rem = 10px */
+    box-sizing: border-box;
 }
 body {
     font-size: 1.6rem;
@@ -33,29 +34,37 @@ i:hover {
 /* Main and header part */
 .main {
     background-image: url("./Images/banner-img.jpg");
-    height: 65rem;
+    max-height: 65rem;
 }
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: auto;
 }
 .logo {
-    margin-left: 25rem;
-    margin-top: 4.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4rem;
 }
 .navbar {
     display: flex;
-    margin-right: 20rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .navlist {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 .navlink  {
     font-size: 1.8rem;
     font-weight: 600;
-    padding-right: 6rem;
+    padding-right: 5rem;
     color: white;
 }
 .navitem {
@@ -77,6 +86,7 @@ i:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     color: white;
     flex-direction: column;
     height: 57.5rem;
