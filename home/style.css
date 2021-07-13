@@ -138,6 +138,28 @@ audio {
     height: 5rem;
     z-index: 1;
 }
+/* Mini-Gallery */
+.minigal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    width: auto;
+    height: auto;
+    grid-template-areas:
+    "gal1 gal1 gal2 gal2 gal3 gal3"
+    "gal4 gal4 gal4 gal5 gal5 gal5";
+}
+.minigal1, .minigal2, .minigal3, .minigal4, .minigal5 {
+    display: grid;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.minigal1 {grid-area: gal1;}
+.minigal2 {grid-area: gal2;}
+.minigal3 {grid-area: gal3;}
+.minigal4 {grid-area: gal4;}
+.minigal5 {grid-area: gal5;}
 /* Recent News */
 .rtnews {
     text-align: center;
