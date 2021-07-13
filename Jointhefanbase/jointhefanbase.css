@@ -1,0 +1,68 @@
+/* GENERAL */
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    font-family: "Poppins", Sans-Serif;
+}
+
+body{
+    margin: 0px;
+    padding:0px;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+
+/* THIRD BLOCK */
+
+/* SECTION */
+#thirdblock{
+    border: orangered solid 3px;
+    height: 954px;
+    text-align: center;
+    padding-top: 175px;
+}
+
+/* ARTICLE */
+.thirdblock_article{
+    display: flex;
+    border: palegreen solid 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ARTICLE SECTIONS */
+.thirdblock_sections{
+    border: orchid solid 3px;
+    width: 372px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+/* FOUR BLOCK : Join the Fanbase */
+
+/* Left part */
+
+
+/* Right part */
+
+.square01{
+    width: 40px;
+    height: 50px;
+    border: #8121E0 solid 1px;
+    border-radius: 1px;
+    float: left;
+  }
