@@ -41,7 +41,7 @@ i:hover {
 /* Main and header part */
 
 .main {
-    background-image: url("/General2/Images/banner-img.jpg");
+    background-image: url("General2/Images/banner-img.jpg");
     max-height: 65rem;
 }
 .header {

@@ -29,7 +29,7 @@ p{
 /* HEADER */
 
 .main {
-    background-image: url("./Images/banner-img.jpg");
+    background-image: url("Images/banner-img.jpg");
     max-height: 65rem;
 }
 .header {

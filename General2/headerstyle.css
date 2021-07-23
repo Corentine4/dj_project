@@ -32,7 +32,7 @@ i:hover {
 
 /* Main and header part */
 .main {
-    background-image: url("./Images/banner-img.jpg");
+    background-image: url("Images/banner-img.jpg");
     height: auto;
     width: 100%;
     background-size: cover;

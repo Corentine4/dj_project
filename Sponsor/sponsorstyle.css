@@ -7,7 +7,7 @@
     flex-direction: column;
     height: 470px;
     width: 100%;
-    background-image: url(../General2/Images/homepage-sponsors-background.jpg);
+    background-image: url(General2/Images/homepage-sponsors-background.jpg);
     background-size: cover;
     background-position: center -650px;
     position: relative;
