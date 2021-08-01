@@ -379,7 +379,7 @@ p.quote-dj-angerone{
     background-color: #000000;
     position: relative;
     background-position: center;
-    background-image: url(General2/Images/homepage-latest-releases-background.jpg);
+    background-image: url('../General2/Images/homepage-latest-releases-background.jpg');
     background-size: cover;
 }
 
@@ -654,7 +654,7 @@ list-style-type: circle;
     flex-direction: column;
     height: 470px;
     width: 100%;
-    background-image: url(General2/Images/homepage-sponsors-background.jpg);
+    background-image: url('../General2/Images/homepage-sponsors-background.jpg');
     background-position: center;
     position: relative;
     z-index: 1;
@@ -850,7 +850,7 @@ list-style-type: circle;
     background-color: black;
 }
 .newsitems:hover {
-    background-image: url(Images/gallery-5.jpg);
+    background-image: url('Images/gallery-5.jpg');
     color: white;
 }
 /* Newsletter input box */

@@ -41,7 +41,7 @@ i:hover {
 /* Main and header part */
 
 .main {
-    background-image: url("General2/Images/banner-img.jpg");
+    background-image: url("/General2/Images/banner-img.jpg");
     max-height: 65rem;
 }
 .header {
@@ -109,7 +109,7 @@ i:hover {
     opacity: 75%;
 }
 .active a:link {
-    color: rgb(43, 43, 43);
+    color: rgb(190, 190, 190);
     opacity: 50%;
 }
 
@@ -345,13 +345,13 @@ list-style-type: circle;
 }
 
 .events{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     margin: auto;
-    height : 700px;
+    /*height : 700px;*/
     max-width: 1000px;
     border: #282828 0.5px;
     border-top-left-radius: 5px;
